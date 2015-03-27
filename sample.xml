@@ -1,0 +1,27 @@
+  <DATABASE>
+    <OS_PLATFORM>1</OS_PLATFORM>
+    <NAME>test_Database</NAME>
+    <DATABASE_ID>{a1a02b4d-2698-4fd9-936b-d9506e120f41}</DATABASE_ID>
+    <LIBRARY>
+      <SHIM>
+        <NAME>test_Shim</NAME>
+        <DLLFILE>shimtest.dll</DLLFILE>
+        <INEXCLUDE>
+          <INCLUDE />
+          <MODULE>*</MODULE>
+        </INEXCLUDE>
+      </SHIM>
+    </LIBRARY>
+    <EXE>
+      <NAME>calc.exe</NAME>
+      <APP_NAME>test_Apps</APP_NAME>
+      <EXE_ID>{153e0865-67a7-4825-8eac-9d3455f83f92}</EXE_ID>
+      <MATCHING_FILE>
+        <NAME>*</NAME>
+      </MATCHING_FILE>
+      <SHIM_REF>
+        <NAME>test_Shim</NAME>
+        <SHIM_TAGID>../../0/0</SHIM_TAGID>
+      </SHIM_REF>
+    </EXE>
+  </DATABASE>
