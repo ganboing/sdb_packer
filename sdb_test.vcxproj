@@ -40,12 +40,10 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\boost\boost_1_57_0;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\PROGMAN\workspace\bgHelper\NonExportApis;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <IncludePath>D:\boost\boost_1_57_0;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\PROGMAN\workspace\bgHelper\NonExportApis;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
