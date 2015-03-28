@@ -4,6 +4,6 @@ A simple sdb (Application Compatibility Database) packer. It is intended for cre
 
 Usage:
 
-sdb_test <in.xml> <out.sdb>
+sdb_test in.xml out.sdb
 
 The sample.xml is provided as an example for your convenience. 
